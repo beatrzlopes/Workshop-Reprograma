@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+
+}
+
+.banner{
+    background-image: url("../img/observacao_telescopio_solar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: center;
+    padding-top: 25vh;
+  }
+  
+  .banner h1 {
+    font-family: "Roboto Slab", serif;
+    color: black;
+  }
+  
+  .banner p {
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .banner a {
+    color: blueviolet;
+    text-decoration: unset;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+  }
+  
+  .banner a:hover {
+    background-color: blueviolet;
+    color: #fff;
+  }
+  
+  /* SOBRE MIM */
+  
+  .sobremim,
+  .redes-sociais {
+    max-width: 1204px;
+    margin: 0 auto;
+  }
+
+  .minhas-habilidades{
+      display: flex;
+  }
+
+  .minhas-habilidades_sobre,
+  .minhas-habilidades_itens{
+      max-width: 50%;
+  }
+
+  .minhas-habilidades_itens{
+      margin-left: 10%;
+  }
+
+  .sobremim h2{
+      text-align: center;
+  }
+
+  .redes-sociais_item{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .redes-sociais_item a{
+      text-decoration: unset;
+  }
+  
+  .rede-sociais_facebook,
+  .rede-sociais_linkedin,
+  .rede-sociais_instagram,
+  .rede-sociais_github{
+    background-color: skyblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+    width: 150px;
+   
+  }
+
+  footer{
+      text-align: center;
+      background-color: teal;
+      height: 50px;
+      color: #ffffff;
+     
+      
+  }
